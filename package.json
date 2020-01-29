@@ -1,11 +1,11 @@
 {
-  "name": "Apprenti-401-Lab-02",
+  "name": "name",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Tests, Classes, Modules and Validators",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint **/*.js",
+    "lint": "eslint \"**/*.js\"",
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
@@ -22,6 +22,15 @@
   },
   "homepage": "https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-02#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "validator": "^12.2.0"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
