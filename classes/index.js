@@ -9,6 +9,6 @@ console.log(mazda.name, mazda.drive(), mazda.stop());
 const harley = new VehicleConstructor.Motorcycle('Harley');
 console.log(harley.name, harley.wheelie(), harley.stop());
 
-// Implement a car and motorcycle using a Class
+// Implement a car and motorcycle using a Class 
 
 

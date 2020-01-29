@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
 
 const VehicleConstructor = require('../vehicle-constructor.js');
 
