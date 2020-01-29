@@ -11,10 +11,10 @@ class Vehicle {
     this.wheels = wheels;
   }
   drive() {
-    return 'Movement';
+    return 'Moving Forward';
   }
   stop() {
-    return 'Stopped';
+    return 'Stopping';
   }
 }
 
@@ -24,7 +24,7 @@ class Vehicle {
  */
 
 class Car extends Vehicle {
-  constructor(model) {
+  constructor(name) {
     super(name, 4);
   }
 }
@@ -34,9 +34,15 @@ class Car extends Vehicle {
  * @class
  */
 class Motorcycle extends Vehicle {
-  constructor(model) {
+  constructor(name) {
     super(name, 2);
+  }
+
+  wheelie() {
+    return 'Wheee!';
   }
 }
 
-module.exports = { Car, Motorcycle };
+module.exports = {
+  Car, Motorcycle,
+};
