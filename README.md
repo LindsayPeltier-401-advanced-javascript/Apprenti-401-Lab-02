@@ -11,17 +11,19 @@
 
 #### Documentation
 
-[JSDoc Index]()
+jsdocs: /docs (endpoint)
+[JSDoc Index](./docs)
 
 
 ### Setup
 
-npm run
+npm start
   
 #### Tests
 
-npm test
+Lint: npm run lint
+Unit Test: npm test
 
 #### UML
-![]()
+![UML](./assets/IMG_4310.JPG)
 
