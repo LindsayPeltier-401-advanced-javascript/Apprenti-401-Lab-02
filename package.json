@@ -1,7 +1,7 @@
 {
   "name": "Apprenti-401-Lab-02",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Tests, Classes, Modules and Validators",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -22,6 +22,13 @@
   },
   "homepage": "https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-02#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
