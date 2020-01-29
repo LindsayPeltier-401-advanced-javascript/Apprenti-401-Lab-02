@@ -1,7 +1,7 @@
 'use strict';
 
 const faker = require('faker');
-const validator = require('../validator');
+const validator = require('../lib/validator');
 
 let str = 'yes';
 let num = 1;
