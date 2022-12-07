@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/LindsayPeltier-401-advanced-javascript/Apprenti-401-Lab-02#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
